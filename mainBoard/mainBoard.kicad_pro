@@ -497,7 +497,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 16,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -515,6 +515,60 @@
         "wire_width": 6
       },
       {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "12/24V Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(122, 31, 31)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "3v3 Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(232, 163, 61)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "5v Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(187, 46, 36)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "AC Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 9, 32)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "Analog Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(94, 94, 94)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "DifferentialPairs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(142, 36, 170)",
+        "wire_width": 6
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -524,12 +578,66 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 12,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
-        "wire_width": 24
+        "wire_width": 14
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "Generic Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(184, 134, 11)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgb(201, 181, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 16,
+        "line_style": 0,
+        "name": "LV Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(200, 121, 200)",
+        "wire_width": 14
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgb(25, 118, 210)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 151, 167)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgb(46, 125, 50)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -537,7 +645,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "I2C",
+        "pattern": ".*(I2C|SDA|SCL).*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": ".*(SPI|CS|SLK|MISO|MOSI).*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": ".*(USB|D[+-]).*"
+      },
+      {
+        "netclass": "DifferentialPairs",
+        "pattern": ".*(_[PN])"
+      },
+      {
+        "netclass": "GND",
+        "pattern": ".*(GND).*"
+      },
+      {
+        "netclass": "3v3 Power",
+        "pattern": ".*([+-]3.3V|[+-]3V3).*"
+      },
+      {
+        "netclass": "5v Power",
+        "pattern": ".*([+-]5V).*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": ".*(UART|[_]TX|[_]RX).*"
+      },
+      {
+        "netclass": "12/24V Power",
+        "pattern": ".*([+-]24V|[+-]12V).*"
+      },
+      {
+        "netclass": "Generic Power",
+        "pattern": ".*(VCC|VDD|VIN|VBAT|BATT|VBATT).*"
+      },
+      {
+        "netclass": "AC Power",
+        "pattern": ".*(L[123]|LN).*"
+      },
+      {
+        "netclass": "Analog Ground",
+        "pattern": ".*(AGND).*"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": ".*([+-]1V8|[+-]2V5|[+-]1V2|[+-]1.8V|[+-]2.5V|[+-]1.2V).*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
