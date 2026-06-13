@@ -2208,7 +2208,7 @@
 		(uuid "dbd03bf6-9d58-4fb9-a9fb-52230504a08b")
 	)
 	(junction
-		(at 280.67 115.57)
+		(at 257.81 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29dd7e66-f9ed-4589-9d6b-ef87e642d58e")
@@ -2250,7 +2250,7 @@
 		(uuid "b0626715-2680-48de-b4c7-8febbc3746ff")
 	)
 	(junction
-		(at 295.91 115.57)
+		(at 273.05 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8360fad-7c2e-4636-93b9-01377b2b5c34")
@@ -2367,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 105.41) (xy 280.67 105.41)
+			(xy 260.35 105.41) (xy 257.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 115.57) (xy 280.67 115.57)
+			(xy 243.84 115.57) (xy 257.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 105.41) (xy 295.91 115.57)
+			(xy 273.05 105.41) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 115.57) (xy 295.91 115.57)
+			(xy 269.24 115.57) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 105.41) (xy 295.91 105.41)
+			(xy 270.51 105.41) (xy 273.05 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 105.41) (xy 280.67 115.57)
+			(xy 257.81 105.41) (xy 257.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 115.57) (xy 284.48 115.57)
+			(xy 257.81 115.57) (xy 261.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 115.57) (xy 302.26 115.57)
+			(xy 273.05 115.57) (xy 279.4 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2859,7 @@
 	)
 	(global_label "TC_VOUT"
 		(shape output)
-		(at 302.26 115.57 0)
+		(at 279.4 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2869,7 +2869,7 @@
 		)
 		(uuid "e2ff0bee-f7d2-449b-844b-5889ab3a8fd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1676 115.57 0)
+			(at 290.3076 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3569,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 288.29 115.57 90)
+		(at 265.43 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,7 +3578,7 @@
 		(fields_autoplaced yes)
 		(uuid "77e812fa-f2a3-4c98-979d-caa71c142819")
 		(property "Reference" "R24"
-			(at 288.29 109.22 90)
+			(at 265.43 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3586,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 288.29 111.76 90)
+			(at 265.43 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 288.544 114.554 90)
+			(at 265.684 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 115.57 0)
+			(at 265.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 288.29 115.57 0)
+			(at 265.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4393,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 288.29 105.41 0)
+		(at 265.43 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4401,7 +4401,7 @@
 		(dnp no)
 		(uuid "d6dae507-7e72-414c-9227-50e63dcdd814")
 		(property "Reference" "JP5"
-			(at 288.29 102.108 0)
+			(at 265.43 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4409,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 288.29 101.6 0)
+			(at 265.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 288.29 105.41 0)
+			(at 265.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 105.41 0)
+			(at 265.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4436,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 288.29 105.41 0)
+			(at 265.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

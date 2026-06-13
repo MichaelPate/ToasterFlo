@@ -518,8 +518,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "12/24V Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(122, 31, 31)",
+        "priority": 5,
         "schematic_color": "rgb(122, 31, 31)",
         "wire_width": 14
       },
@@ -527,8 +527,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "3v3 Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "pcb_color": "rgb(232, 163, 61)",
+        "priority": 8,
         "schematic_color": "rgb(232, 163, 61)",
         "wire_width": 14
       },
@@ -536,8 +536,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "5v Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "pcb_color": "rgb(187, 46, 36)",
+        "priority": 7,
         "schematic_color": "rgb(187, 46, 36)",
         "wire_width": 14
       },
@@ -545,8 +545,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "AC Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(255, 9, 32)",
+        "priority": 3,
         "schematic_color": "rgb(255, 9, 32)",
         "wire_width": 14
       },
@@ -554,8 +554,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "Analog Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(94, 94, 94)",
+        "priority": 2,
         "schematic_color": "rgb(94, 94, 94)",
         "wire_width": 14
       },
@@ -563,8 +563,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "DifferentialPairs",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "pcb_color": "rgb(142, 36, 170)",
+        "priority": 9,
         "schematic_color": "rgb(142, 36, 170)",
         "wire_width": 6
       },
@@ -577,8 +577,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "pcb_color": "rgb(0, 0, 0)",
+        "priority": 13,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -589,17 +589,26 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "Generic Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(184, 134, 11)",
+        "priority": 4,
         "schematic_color": "rgb(184, 134, 11)",
         "wire_width": 14
       },
       {
         "bus_width": 12,
         "line_style": 0,
+        "name": "High Speed",
+        "pcb_color": "rgb(106, 27, 154)",
+        "priority": 0,
+        "schematic_color": "rgb(106, 27, 154)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "pcb_color": "rgb(201, 181, 0)",
+        "priority": 12,
         "schematic_color": "rgb(201, 181, 0)",
         "wire_width": 6
       },
@@ -607,8 +616,8 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "LV Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(200, 121, 200)",
+        "priority": 1,
         "schematic_color": "rgb(200, 121, 200)",
         "wire_width": 14
       },
@@ -616,8 +625,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "pcb_color": "rgb(25, 118, 210)",
+        "priority": 11,
         "schematic_color": "rgb(25, 118, 210)",
         "wire_width": 6
       },
@@ -625,8 +634,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "pcb_color": "rgb(0, 151, 167)",
+        "priority": 6,
         "schematic_color": "rgb(0, 151, 167)",
         "wire_width": 6
       },
@@ -634,8 +643,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "pcb_color": "rgb(46, 125, 50)",
+        "priority": 10,
         "schematic_color": "rgb(46, 125, 50)",
         "wire_width": 6
       }
@@ -697,6 +706,10 @@
       {
         "netclass": "LV Power",
         "pattern": ".*([+-]1V8|[+-]2V5|[+-]1V2|[+-]1.8V|[+-]2.5V|[+-]1.2V).*"
+      },
+      {
+        "netclass": "High Speed",
+        "pattern": ".*(XTAL|HSE).*"
       }
     ]
   },
