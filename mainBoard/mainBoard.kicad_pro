@@ -669,7 +669,7 @@
       },
       {
         "netclass": "DifferentialPairs",
-        "pattern": ".*(_[PN])"
+        "pattern": ".*(_[PN]|_[+-])"
       },
       {
         "netclass": "GND",
@@ -677,11 +677,11 @@
       },
       {
         "netclass": "3v3 Power",
-        "pattern": ".*([+-]3.3V|[+-]3V3).*"
+        "pattern": ".*([+-]3.3V|[+-]3V3|[+-]3v3).*"
       },
       {
         "netclass": "5v Power",
-        "pattern": ".*([+-]5V).*"
+        "pattern": ".*([+-]5V|[+-]5v).*"
       },
       {
         "netclass": "UART",
@@ -693,7 +693,7 @@
       },
       {
         "netclass": "Generic Power",
-        "pattern": ".*(VCC|VDD|VIN|VBAT|BATT|VBATT).*"
+        "pattern": ".*(VCC|VDD|VIN|VBAT|BATT|VBATT|VSW).*"
       },
       {
         "netclass": "AC Power",
