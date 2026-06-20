@@ -4170,6 +4170,10 @@
 		(at 68.58 271.78)
 		(uuid "b3d806d1-8e5f-43fb-9cf8-dfa69aee20f5")
 	)
+	(no_connect
+		(at 175.26 135.89)
+		(uuid "db67d638-3f0d-4d4a-9edf-638a70c8535e")
+	)
 	(wire
 		(pts
 			(xy 331.47 196.85) (xy 317.5 196.85)
@@ -7996,7 +8000,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78c69d0c-2996-4e88-b4a8-77a28b4360db")
 		(property "Reference" "L1"
 			(at 219.71 125.73 90)
@@ -8014,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 219.71 130.81 0)
 			(effects
 				(font
@@ -8039,6 +8042,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" "LQM2HPN2R2MG0L"
+			(at 219.71 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
