@@ -1,0 +1,9 @@
+Manufacturer=Yageo Group
+PartNumber=A765KG106M1ELAE035
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=4.1
+Released=2022-04-13 04:53:14
+Downloaded=2026-06-19 18:48:31
+3D=Y

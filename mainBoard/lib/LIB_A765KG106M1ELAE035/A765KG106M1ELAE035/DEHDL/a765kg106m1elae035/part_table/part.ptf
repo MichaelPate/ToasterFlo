@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A765KG106M1ELAE035'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Yageo Group", "A765KG106M1ELAE035" (!) = "", "CAPAE830X730N", "Capacitor Al Electrolytic", "80-A765KG106M1ELAE35", "https://www.mouser.co.uk/ProductDetail/KEMET/A765KG106M1ELAE035?qs=W%2FMpXkg%252BdQ53XAW4ytn24A%3D%3D", "A765, Aluminum, Polymer Aluminum, 10 uF, 20%, 25 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 35 mOhms, 125 uA, 8mm, 7mm", "https://content.kemet.com/datasheets/KEM_A4070_A765.pdf", "7.3 mm"
+END_PART
+
+END.

@@ -5,4 +5,5 @@
   (lib (name "PhoenixContact_SPTA")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/PhoenixContact_SPTA.pretty")(options "")(descr ""))
   (lib (name "530002_Heatsinks")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/530002_Heatsinks.pretty")(options "")(descr ""))
   (lib (name "IRM-30")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/IRM-30.pretty")(options "")(descr ""))
+  (lib (name "KemetA765")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_A765KG106M1ELAE035/A765KG106M1ELAE035/KiCad")(options "")(descr ""))
 )
