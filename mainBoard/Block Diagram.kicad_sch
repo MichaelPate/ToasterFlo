@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
@@ -23,7 +23,7 @@
 			(type color)
 			(color 255 60 86 1)
 		)
-		(uuid 05bb3472-dadf-40f4-b14d-6607e31f7c17)
+		(uuid "05bb3472-dadf-40f4-b14d-6607e31f7c17")
 	)
 	(rectangle
 		(start 184.15 81.153)
@@ -37,7 +37,7 @@
 			(type color)
 			(color 255 60 86 1)
 		)
-		(uuid 13218484-8a44-4942-8210-3b037172a3ab)
+		(uuid "13218484-8a44-4942-8210-3b037172a3ab")
 	)
 	(rectangle
 		(start 314.833 102.87)
@@ -51,7 +51,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 1ae41bf5-a0df-473b-a9fd-ada25162a618)
+		(uuid "1ae41bf5-a0df-473b-a9fd-ada25162a618")
 	)
 	(rectangle
 		(start 191.5085 136.1897)
@@ -65,7 +65,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 33ebf93a-4008-46aa-97c4-ff8be5711c4c)
+		(uuid "33ebf93a-4008-46aa-97c4-ff8be5711c4c")
 	)
 	(rectangle
 		(start 150.9119 195.0278)
@@ -79,7 +79,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 6bfcc589-070b-4d6e-99de-4886b84b7edf)
+		(uuid "6bfcc589-070b-4d6e-99de-4886b84b7edf")
 	)
 	(rectangle
 		(start 182.6619 195.0278)
@@ -93,7 +93,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 72902e38-88a8-4248-84f4-6da5b480aa33)
+		(uuid "72902e38-88a8-4248-84f4-6da5b480aa33")
 	)
 	(rectangle
 		(start 115.57 185.42)
@@ -107,7 +107,7 @@
 			(type color)
 			(color 80 255 61 1)
 		)
-		(uuid 7cd5e950-fc73-4a1c-a5a6-f20366c439bf)
+		(uuid "7cd5e950-fc73-4a1c-a5a6-f20366c439bf")
 	)
 	(rectangle
 		(start 201.803 81.153)
@@ -121,7 +121,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 816e33c0-1017-4209-8404-2cf771a62afe)
+		(uuid "816e33c0-1017-4209-8404-2cf771a62afe")
 	)
 	(rectangle
 		(start 151.003 125.73)
@@ -135,7 +135,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 830b0cbb-a6e8-46d9-bf4e-456d5ecd58ec)
+		(uuid "830b0cbb-a6e8-46d9-bf4e-456d5ecd58ec")
 	)
 	(rectangle
 		(start 182.6604 184.9543)
@@ -149,7 +149,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid 9d9c349b-d1ab-4289-bc30-34ae918ba2c1)
+		(uuid "9d9c349b-d1ab-4289-bc30-34ae918ba2c1")
 	)
 	(rectangle
 		(start 247.523 109.22)
@@ -163,7 +163,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid a22695a4-005e-42e8-8266-81b3f76c453c)
+		(uuid "a22695a4-005e-42e8-8266-81b3f76c453c")
 	)
 	(rectangle
 		(start 314.833 134.62)
@@ -177,7 +177,7 @@
 			(type color)
 			(color 97 161 255 1)
 		)
-		(uuid ad5ba1c0-a9d8-4e63-9cdd-c3d25ca1a209)
+		(uuid "ad5ba1c0-a9d8-4e63-9cdd-c3d25ca1a209")
 	)
 	(rectangle
 		(start 115.697 81.28)
@@ -191,7 +191,7 @@
 			(type color)
 			(color 255 60 86 1)
 		)
-		(uuid b2998326-d7bb-483c-970c-11cd33881a20)
+		(uuid "b2998326-d7bb-483c-970c-11cd33881a20")
 	)
 	(text "5V\nFans"
 		(exclude_from_sim no)
