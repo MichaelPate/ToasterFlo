@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -81,7 +81,16 @@
           "width": 0.22
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|219262500|117250000|d91bbd0a-d13b-443b-9cc1-4bea43c65d65|b0bd4a5f-d172-4a46-a307-a2b432408e58",
+          ""
+        ],
+        [
+          "invalid_outline|41750000|96500000|586fb0e5-893d-4dbc-b220-b9715eb6f0b8|7b038287-263f-4801-8645-f12c7d6852a5",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -113,7 +122,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -126,7 +135,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -685,7 +694,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Sensetive",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 0,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "",

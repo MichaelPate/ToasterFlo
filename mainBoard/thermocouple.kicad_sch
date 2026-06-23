@@ -4228,7 +4228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 177.8 203.2 90)
+		(at 365.76 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4239,7 +4239,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fcffa04-c6c1-4ae1-a565-11b3fbc7dd03")
 		(property "Reference" "R39"
-			(at 177.8 196.85 90)
+			(at 365.76 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4249,7 +4249,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 177.8 199.39 90)
+			(at 365.76 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 178.054 202.184 90)
+			(at 366.014 92.964 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 203.2 0)
+			(at 365.76 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4281,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 177.8 203.2 0)
+			(at 365.76 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5514,8 +5514,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 43.18 227.33 0)
-		(mirror y)
+		(at 43.18 229.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5525,7 +5524,7 @@
 		(dnp no)
 		(uuid "3795df86-3e7e-42a6-92f1-3896a58f120e")
 		(property "Reference" "J5"
-			(at 43.18 221.742 0)
+			(at 43.18 235.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5535,7 +5534,7 @@
 			)
 		)
 		(property "Value" "4DB-P108-02"
-			(at 43.18 224.028 0)
+			(at 43.18 233.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5545,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "4DB_P108_02:CONN_4DB-P108-02_TEC"
-			(at 43.18 227.33 0)
+			(at 43.18 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 227.33 0)
+			(at 43.18 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5566,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 227.33 0)
+			(at 43.18 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 365.76 93.98 90)
+		(at 177.8 203.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6405,7 +6404,7 @@
 		(fields_autoplaced yes)
 		(uuid "63e8f2a4-d28a-4d18-99db-69a4f8bd8ef0")
 		(property "Reference" "R46"
-			(at 365.76 87.63 90)
+			(at 177.8 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6415,7 +6414,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 365.76 90.17 90)
+			(at 177.8 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6425,7 +6424,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 366.014 92.964 90)
+			(at 178.054 202.184 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,7 +6435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 93.98 0)
+			(at 177.8 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,7 +6446,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 365.76 93.98 0)
+			(at 177.8 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6794,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 370.84 101.6 0)
+		(at 182.88 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6806,7 +6805,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e5906fb-4b8c-4be1-950d-6e8681ac2088")
 		(property "Reference" "C38"
-			(at 374.65 100.3299 0)
+			(at 186.69 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6817,7 +6816,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 374.65 102.8699 0)
+			(at 186.69 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6828,7 +6827,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 371.8052 105.41 0)
+			(at 183.8452 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6839,7 +6838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 101.6 0)
+			(at 182.88 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +6849,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 370.84 101.6 0)
+			(at 182.88 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,7 +7032,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.88 210.82 0)
+		(at 370.84 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7044,7 +7043,7 @@
 		(fields_autoplaced yes)
 		(uuid "83719506-5f80-4c51-a291-d46746f4226e")
 		(property "Reference" "C34"
-			(at 186.69 209.5499 0)
+			(at 374.65 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7055,7 +7054,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 186.69 212.0899 0)
+			(at 374.65 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7066,7 +7065,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 183.8452 214.63 0)
+			(at 371.8052 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 210.82 0)
+			(at 370.84 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +7087,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 210.82 0)
+			(at 370.84 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,8 +7272,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 231.14 118.11 0)
-		(mirror y)
+		(at 231.14 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7284,7 +7282,7 @@
 		(dnp no)
 		(uuid "85ed7de7-1058-4828-8d83-7dbf58c2b2e1")
 		(property "Reference" "J6"
-			(at 231.14 112.522 0)
+			(at 231.14 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7294,7 +7292,7 @@
 			)
 		)
 		(property "Value" "4DB-P108-02"
-			(at 231.14 114.808 0)
+			(at 231.14 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7304,7 +7302,7 @@
 			)
 		)
 		(property "Footprint" "4DB_P108_02:CONN_4DB-P108-02_TEC"
-			(at 231.14 118.11 0)
+			(at 231.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7315,7 +7313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 118.11 0)
+			(at 231.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,7 +7324,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 118.11 0)
+			(at 231.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
