@@ -473,7 +473,7 @@
 			(uuid "4ffa94cd-5d98-437a-aa8f-1ad5e6bf518b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/lib/3d_models/tc33x-2-102e.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -481,7 +481,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1610,6 +1610,17 @@
 			(uuid "3bb4782f-83e8-4714-bc73-ba74a1dc0749")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/power_supply_irm-30-12.stp"
+			(offset
+				(xyz 30.75 -15 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
@@ -3711,7 +3722,7 @@
 		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP14"
-			(at -1.5 3.5 180)
+			(at -1.5 3.5 0)
 			(layer "F.SilkS")
 			(uuid "916bef41-142d-490b-a5f7-291fab08d1b1")
 			(effects
@@ -3904,7 +3915,7 @@
 			(uuid "d353c897-522b-41e6-987e-42b2b98476e2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3912,7 +3923,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5587,7 +5598,7 @@
 			(uuid "b1167462-b89d-4964-a116-fa34a6f1a376")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5595,7 +5606,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6028,7 +6039,7 @@
 			(uuid "91536172-3224-4d88-845b-93a2fdfd2682")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6036,7 +6047,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8396,7 +8407,7 @@
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "R43"
-			(at -3.25 0 180)
+			(at -3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "906a5d82-0a75-4fca-97cd-3c0025822556")
 			(effects
@@ -8682,7 +8693,7 @@
 			(uuid "e75623b1-cf40-4ac8-9573-23689d49146a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/lib/3d_models/tc33x-2-102e.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8690,7 +8701,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -8907,7 +8918,7 @@
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "R45"
-			(at 1.75 -3.25 180)
+			(at 1.75 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "9c33bd8c-d960-4f29-bc2d-293896340f28")
 			(effects
@@ -9193,7 +9204,7 @@
 			(uuid "c811f019-a145-4cdd-8456-1fa88ebc40b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/lib/3d_models/tc33x-2-102e.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9201,7 +9212,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -11433,15 +11444,15 @@
 			(uuid "3f1f346a-1c3a-4448-b955-3766d4aa7916")
 		)
 		(embedded_fonts no)
-		(model "TMOV20RP150E.stp"
+		(model "${KIPRJMOD}/lib/3d_models/TMOV20RP150E.step"
 			(offset
-				(xyz 3.789999905 -1.359999994 -15.90999961)
+				(xyz 3.79 -1.36 4.59)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.3)
 			)
 			(rotate
-				(xyz 90 0 -180)
+				(xyz -90 -0 -170)
 			)
 		)
 	)
@@ -13029,7 +13040,7 @@
 			(uuid "2513c37b-1eda-4299-b2f5-0c0e4a551548")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13037,7 +13048,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13441,15 +13452,37 @@
 			(uuid "743a4cb8-253f-4eca-bb61-bd8071c0369f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/3d_models/52000001009.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.25 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/52000001009.stp"
+			(offset
+				(xyz 18.25 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/3A Fuse.STEP"
+			(offset
+				(xyz 10.25 0 8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17496,7 +17529,7 @@
 			(uuid "cab24628-9457-488a-a7b9-efbd02a0eb16")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17504,7 +17537,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18375,7 +18408,7 @@
 		(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP15"
-			(at 3.25 0 180)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "4211015d-d310-47f5-8824-de95ceed743a")
 			(effects
@@ -18568,7 +18601,7 @@
 			(uuid "288b317a-6d22-4994-bb7f-8e01e55e9715")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18576,7 +18609,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19943,7 +19976,7 @@
 			(uuid "13edca30-bc6f-402d-b8b2-caae677a4c77")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19951,7 +19984,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -22878,7 +22911,7 @@
 			(uuid "d05e1f71-4f86-4a83-bccd-da356216877d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/3d_models/01020071Z.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22886,7 +22919,29 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/01020071Z.stp"
+			(offset
+				(xyz 34 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/Mini fuse 6_3x32 500V v1.step"
+			(offset
+				(xyz 1.35 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -0)
 			)
 		)
 	)
@@ -23711,7 +23766,7 @@
 			(uuid "621fe109-a40e-4c37-8c97-472acbd66e22")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23719,7 +23774,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -24793,6 +24848,17 @@
 			(uuid "84366216-2d68-4810-a239-226a90b37e32")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/c-2-1437667-4-n-3d.stp"
+			(offset
+				(xyz 4 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 		(layer "F.Cu")
@@ -25488,6 +25554,17 @@
 			(uuid "626e86ed-86e6-4650-b3f6-06a79d256392")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/1366005.stp"
+			(offset
+				(xyz -8 -16.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -27657,6 +27734,17 @@
 			(uuid "2e211c91-be78-4a06-9ea4-49ee7f324632")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/1366005.stp"
+			(offset
+				(xyz -8 -16.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
@@ -35880,7 +35968,7 @@
 			(uuid "87d63046-a9fc-4271-a29d-52fd8ad349e1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35888,7 +35976,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -36048,6 +36136,17 @@
 			(uuid "7bad643f-075e-49ed-b2b3-9579e1d9c243")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/1366005.stp"
+			(offset
+				(xyz -8 -16.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm"
 		(layer "F.Cu")
@@ -37673,7 +37772,7 @@
 			(uuid "f3e1275e-9329-4d8b-9695-fcfcc40f110b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/lib/3d_models/tc33x-2-102e.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37681,7 +37780,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -38516,7 +38615,7 @@
 			(uuid "3f97b7e6-7b19-4d34-b6b1-754909fcc48f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/lib/3d_models/tc33x-2-102e.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38524,7 +38623,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -39589,7 +39688,7 @@
 			(uuid "768c8d93-7bd9-447e-95dd-3a94bd29ed78")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39597,7 +39696,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -41241,15 +41340,37 @@
 			(uuid "347136a6-a257-4611-bd21-ea30de02d748")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/3d_models/3A Fuse.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 10.25 0 8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/52000001009.stp"
+			(offset
+				(xyz 2.25 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/52000001009.stp"
+			(offset
+				(xyz 18.25 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -44469,15 +44590,37 @@
 			(uuid "b93f6154-6cbe-47f0-9f6a-ed4dab95f690")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/3d_models/Mini fuse 6_3x32 500V v1.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.35 0 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/01020071Z.stp"
+			(offset
+				(xyz 34 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3d_models/01020071Z.stp"
+			(offset
+				(xyz 0.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -47363,7 +47506,7 @@
 			(uuid "a7d11a91-808a-423a-8dd0-eaef2ee89648")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47371,7 +47514,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -48469,6 +48612,17 @@
 			(uuid "4d89acca-c1dc-4575-b770-290a9b1e52d2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/c-2-1437667-4-n-3d.stp"
+			(offset
+				(xyz 4 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -48907,6 +49061,17 @@
 			(uuid "ec66dbd9-90f0-4d13-82c9-ddb89236fa3c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/c-2-1437667-4-n-3d.stp"
+			(offset
+				(xyz 4 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -50691,7 +50856,7 @@
 			(uuid "015f29cd-74f5-4954-bf55-b54d5e34e86b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Miniature.step"
+		(model "${KIPRJMOD}/lib/3d_models/RCWCTE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50699,7 +50864,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

@@ -2079,7 +2079,7 @@
 	(text_box "Use RCWCTE testpoint connectors on a Keystone 5019 pad"
 		(exclude_from_sim no)
 		(at 238.76 196.85 0)
-		(size 36.83 12.7)
+		(size 36.83 13.854)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
