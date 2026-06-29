@@ -7873,7 +7873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 229.87 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9034,7 +9034,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)"
+		(property "Description" "30W, 12VDC out, 120VAC in, encapsulated power suppy module"
 			(at 228.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9592,7 +9592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 96.52 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
