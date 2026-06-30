@@ -2099,6 +2099,29 @@
 		)
 		(uuid "97790ea9-38b0-490b-bed7-2b49f1ff698a")
 	)
+	(text_box "C0G Capacitors instead of Type II ceramic to avoid microphony"
+		(exclude_from_sim no)
+		(at 238.76 214.63 0)
+		(size 36.83 13.854)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b0954280-8859-47e2-96e5-cc58631085fa")
+	)
 	(junction
 		(at 69.85 260.35)
 		(diameter 0)
@@ -4409,7 +4432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF X7R"
+		(property "Value" "1uF C0G"
 			(at 73.66 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4570,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF C0G"
 			(at 124.46 232.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF C0G"
 			(at 124.46 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,7 +6355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF X7R"
+		(property "Value" "1uF C0G"
 			(at 261.62 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6815,7 +6838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF C0G"
 			(at 186.69 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,7 +7076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF C0G"
 			(at 374.65 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +7871,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF C0G"
 			(at 312.42 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +7952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF C0G"
 			(at 186.69 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF X7R"
+		(property "Value" "1uF C0G"
 			(at 73.66 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
