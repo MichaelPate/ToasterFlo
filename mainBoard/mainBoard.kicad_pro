@@ -933,7 +933,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "U5,U16-25,D16,#FLG10,#PWR33,#PWR90-105,R60-65,SW4-5",
+    "used_designators": "U5,U16-25,D16,#FLG10,#PWR33,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-105,R60-70,SW4-5",
     "variants": []
   },
   "sheets": [
