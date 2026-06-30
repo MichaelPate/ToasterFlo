@@ -801,7 +801,7 @@
       },
       {
         "netclass": "Sensetive",
-        "pattern": ".*(FB|AFE|ADC|REF|VREF).*"
+        "pattern": ".*(FB|AFE|ADC|REF|VREF|SENSE).*"
       }
     ]
   },
@@ -933,7 +933,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "#PWR33,#PWR90,R60,SW4",
+    "used_designators": "#FLG10,#PWR33,#PWR90-91,R60,SW4-5",
     "variants": []
   },
   "sheets": [
