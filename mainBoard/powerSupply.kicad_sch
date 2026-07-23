@@ -9426,7 +9426,6 @@
 	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 151.13 66.04 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
