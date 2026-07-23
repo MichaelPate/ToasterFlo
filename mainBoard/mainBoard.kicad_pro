@@ -81,7 +81,32 @@
           "width": 0.22
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|219262500|117250000|1e9a5e4b-5252-485c-893e-5e8a32fccd98|b0bd4a5f-d172-4a46-a307-a2b432408e58",
+          "Caused by net tie"
+        ],
+        [
+          "connection_width|132994234|121777324|90d66db7-4dd6-4f96-a140-fe86fd034034|f3bdb4a1-7602-4cb2-8a5a-3b04e0ac2154",
+          ""
+        ],
+        [
+          "duplicate_footprints|139100000|45663326|754f8b58-debd-4604-a128-1519bc9e77ea|58c68361-22f6-4f99-ade7-8ca26a419d2b",
+          "watermark"
+        ],
+        [
+          "extra_footprint|139100000|45663326|754f8b58-debd-4604-a128-1519bc9e77ea|00000000-0000-0000-0000-000000000000",
+          "watermark"
+        ],
+        [
+          "extra_footprint|233300000|85800000|58c68361-22f6-4f99-ade7-8ca26a419d2b|00000000-0000-0000-0000-000000000000",
+          "watermark"
+        ],
+        [
+          "invalid_outline|46750000|96250000|cb489388-e2ef-490a-b3fb-4adf19c64c9f|d78b63fc-26d9-461c-adbf-fa6741f48d9b",
+          "board edge is manufacturable"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -586,6 +611,7 @@
       },
       {
         "bus_width": 16,
+        "clearance": 0.7,
         "line_style": 0,
         "name": "AC Power",
         "pcb_color": "rgb(255, 9, 32)",
@@ -718,6 +744,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Project Architecture/Power Supply/+5V_BUCK_BST": [
+        "High Speed"
+      ],
+      "/Project Architecture/Power Supply/+5V_BUCK_SW": [
+        "High Speed"
+      ],
       "/Project Architecture/Power Supply/5V_BUCK_BST": [
         "High Speed"
       ],
@@ -839,7 +871,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -867,14 +899,80 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Type",
+          "name": "Type",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "part number",
+          "name": "part number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Type"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -925,7 +1023,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "F5,Q8-10,U5,U16-25,C6-7,C13-14,C17,C20-24,C26,C28-30,C33,C35-36,C39-41,D16-17,#FLG10-12,#PWR5,#PWR33,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-116,#PWR118,TP17-18,JP10-11,R5,R8,R60-73,NT5,SW4-5",
+    "used_designators": "F5,TP17-31,Q8-10,U5,U16-25,C6-7,C13-14,C17,C20-24,C26,C28-30,C33,C35-36,C39-43,D16-17,#PWR5,#PWR33,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-116,#PWR118,#FLG10-12,R5,R8,R60-73,JP10-11,NT5,SW4-5,J14,J18",
     "variants": []
   },
   "sheets": [

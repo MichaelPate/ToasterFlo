@@ -10762,7 +10762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "PhoenixContact_MKDS_9mm:CONN_1714971_PXC"
 			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)

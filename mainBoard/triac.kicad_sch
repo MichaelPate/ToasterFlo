@@ -11,7 +11,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -22,7 +22,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
+			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -96,9 +96,9 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -106,17 +106,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -142,7 +131,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -160,7 +149,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -170,24 +159,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2642,193 +2613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Bottom Element"
 		(exclude_from_sim no)
@@ -3117,12 +2901,6 @@
 		(uuid "28e7f775-04c3-42ce-b1ad-45d39696a8a7")
 	)
 	(junction
-		(at 186.69 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d331a2e-b650-40f7-878c-44b3d144a7b0")
-	)
-	(junction
 		(at 290.83 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3171,6 +2949,12 @@
 		(uuid "7860df23-d160-4386-9bd5-0719259f81b0")
 	)
 	(junction
+		(at 186.69 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8599874d-dff8-4001-b47e-37a2a7e7e448")
+	)
+	(junction
 		(at 350.52 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3181,6 +2965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "930dd2c2-3576-45cd-a360-caeb265e8709")
+	)
+	(junction
+		(at 186.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96cd6643-8121-46a7-a35f-aacbabf6d175")
 	)
 	(junction
 		(at 186.69 186.69)
@@ -3211,12 +3001,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a12d81-0e8e-455b-ad37-93fa5b30b92b")
-	)
-	(junction
-		(at 186.69 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad3554f-3531-4da6-8153-d17011f12c5a")
 	)
 	(junction
 		(at 213.36 186.69)
@@ -3282,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 162.56) (xy 186.69 162.56)
+			(xy 146.05 162.56) (xy 186.69 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 90.17)
+			(xy 144.78 85.09) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 186.69 90.17)
+			(xy 144.78 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 157.48) (xy 148.59 162.56)
+			(xy 146.05 157.48) (xy 146.05 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3942,16 +3726,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c8e032-c6f7-404b-a867-db0af4f556de")
-	)
-	(wire
-		(pts
 			(xy 213.36 92.71) (xy 213.36 90.17)
 		)
 		(stroke
@@ -3959,16 +3733,6 @@
 			(type default)
 		)
 		(uuid "b9dce929-417d-4729-a67c-73d0b963787a")
-	)
-	(wire
-		(pts
-			(xy 146.05 157.48) (xy 146.05 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6d0bdc-8fcc-44da-a981-2bffd45dd18c")
 	)
 	(wire
 		(pts
@@ -5630,9 +5394,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 144.78 80.01 270)
-		(mirror x)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 143.51 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5640,9 +5403,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5e6a0b98-665d-4aef-b498-a38a6090dc8e")
-		(property "Reference" "J2"
-			(at 139.7 78.7399 90)
+		(fields_autoplaced yes)
+		(uuid "4c61bbfb-456d-4c77-ad15-5dd20a08d612")
+		(property "Reference" "J14"
+			(at 148.59 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5652,8 +5416,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1366005"
-			(at 139.7 81.2799 90)
+		(property "Value" "1714971"
+			(at 148.59 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5663,8 +5427,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PhoenixContact_SPTA:SPTA-THR 2.53-5.0 P26"
-			(at 144.78 80.01 0)
+		(property "Footprint" "PhoenixContact_MKDS_9mm:CONN_1714971_PXC"
+			(at 143.51 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 80.01 0)
+			(at 143.51 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,8 +5449,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 80.01 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,20 +5459,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "b3c08515-66e0-459f-aad4-9f8e139bc96c")
 		)
 		(pin "1"
-			(uuid "3632ad71-8946-491f-aa22-6206b116323a")
+			(uuid "29b821fa-1f69-46d6-ab77-3e632dafc1b7")
 		)
 		(pin "2"
-			(uuid "e69f6335-8a5e-4f9a-88b1-89eddc2afa1b")
+			(uuid "409e6438-b6dc-455d-9ef9-b1d9049a4159")
 		)
 		(instances
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
-					(reference "J2")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6377,86 +6138,6 @@
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
 					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 144.78 92.71 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f6357f-2e24-40bc-ab43-bc0072c403c5")
-		(property "Reference" "#PWR036"
-			(at 144.78 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 144.907 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 144.78 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e50ba214-1aab-4268-9be6-edebf2f23861")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7276,9 +6957,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 146.05 152.4 270)
-		(mirror x)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 142.24 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7286,9 +6966,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d27acbad-4d40-45f6-92ff-1dfd381b59ee")
-		(property "Reference" "J3"
-			(at 140.97 151.1299 90)
+		(fields_autoplaced yes)
+		(uuid "cfae84e7-1f32-434e-b3e7-86953c2cd557")
+		(property "Reference" "J18"
+			(at 147.32 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7298,8 +6979,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1366005"
-			(at 140.97 153.6699 90)
+		(property "Value" "1714971"
+			(at 147.32 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7309,8 +6990,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PhoenixContact_SPTA:SPTA-THR 2.53-5.0 P26"
-			(at 146.05 152.4 0)
+		(property "Footprint" "PhoenixContact_MKDS_9mm:CONN_1714971_PXC"
+			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7321,7 +7002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 152.4 0)
+			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7331,8 +7012,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.05 152.4 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,20 +7022,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "adadaab8-7d86-40f6-a86b-871222957a3e")
 		)
 		(pin "1"
-			(uuid "50c3d1d0-cb14-46ee-bb54-b0887b083b7a")
+			(uuid "55d2c17b-d8bb-4ac3-b49e-55e643901d39")
 		)
 		(pin "2"
-			(uuid "78f2184b-780c-43fd-982e-59d227f37d3f")
+			(uuid "64dff90f-7594-4f36-8d00-551f4b4a011d")
 		)
 		(instances
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
-					(reference "J3")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -8025,86 +7703,6 @@
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 146.05 165.1 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feea901d-929a-497f-a362-93f81b5f206e")
-		(property "Reference" "#PWR037"
-			(at 146.05 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 146.177 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 146.05 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89ef9f79-7818-4de5-b2cc-4f40afb41598")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/db0f358e-afa6-42f8-adbe-74e998d63224"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
