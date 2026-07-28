@@ -1078,7 +1078,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1115,7 +1115,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5815,7 +5815,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 143.51 152.4 90)
+		(at 146.05 152.4 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5823,10 +5824,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c61bbfb-456d-4c77-ad15-5dd20a08d612")
 		(property "Reference" "J14"
-			(at 148.59 151.13 90)
+			(at 140.97 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5837,7 +5837,7 @@
 			)
 		)
 		(property "Value" "1714971"
-			(at 148.59 153.67 90)
+			(at 140.97 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5848,7 +5848,7 @@
 			)
 		)
 		(property "Footprint" "PhoenixContact_MKDS_9mm:CONN_1714971_PXC"
-			(at 143.51 152.4 0)
+			(at 146.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +5859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 152.4 0)
+			(at 146.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +5870,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 152.4 0)
+			(at 146.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7378,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 142.24 80.01 90)
+		(at 144.78 80.01 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7386,10 +7387,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cfae84e7-1f32-434e-b3e7-86953c2cd557")
 		(property "Reference" "J18"
-			(at 147.32 78.74 90)
+			(at 139.7 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7400,7 +7400,7 @@
 			)
 		)
 		(property "Value" "1714971"
-			(at 147.32 81.28 90)
+			(at 139.7 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7411,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" "PhoenixContact_MKDS_9mm:CONN_1714971_PXC"
-			(at 142.24 80.01 0)
+			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 80.01 0)
+			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 80.01 0)
+			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
