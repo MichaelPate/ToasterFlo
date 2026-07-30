@@ -197,8 +197,8 @@
       "teardrop_options": [
         {
           "td_onpthpad": true,
-          "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onroundshapesonly": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -607,7 +607,7 @@
       },
       {
         "bus_width": 16,
-        "clearance": 0.7,
+        "clearance": 1.0,
         "line_style": 0,
         "name": "AC Power",
         "pcb_color": "rgb(255, 9, 32)",
