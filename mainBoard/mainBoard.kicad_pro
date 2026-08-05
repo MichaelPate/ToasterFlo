@@ -739,29 +739,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Project Architecture/Power Supply/+5V_BUCK_BST": [
-        "High Speed"
-      ],
-      "/Project Architecture/Power Supply/+5V_BUCK_SW": [
-        "High Speed"
-      ],
-      "/Project Architecture/Power Supply/5V_BUCK_BST": [
-        "High Speed"
-      ],
-      "/Project Architecture/Power Supply/5V_BUCK_SW": [
-        "High Speed"
-      ],
-      "/Project Architecture/Power Supply/5V_BUCK_VOUT": [
-        "5v Power"
-      ],
-      "/Project Architecture/Power Supply/LDO_VOUT_3v3": [
-        "3v3 Power"
-      ],
-      "/Project Architecture/Power Supply/LDO_VOUT_3v3A": [
-        "3v3 Power"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "I2C",
@@ -1019,7 +997,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "L2,J2,J14,J18-19,SW4-5,NT5,#FLG10-12,#PWR1-3,#PWR5,#PWR9,#PWR33,#PWR35-37,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-116,#PWR118-125,C6-7,C13-14,C17,C20-24,C26,C28-30,C33,C35-36,C39-56,JP10-13,R5,R8,R60-84,TP17-31,D4,D16-18,U5,U16-28,Q8-10,F5",
+    "used_designators": "L2,#PWR1-3,#PWR5,#PWR9,#PWR33,#PWR35-37,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-116,#PWR118-130,J2,J14,J18-19,R5,R8,R60-91,#FLG10-12,SW4-5,NT5,JP10-15,C6-7,C13-14,C17,C20-24,C26,C28-30,C33,C35-36,C39-66,TP7,TP10,TP17-31,D4,D16-19,U5,U16-29,Q8-10,F5",
     "variants": []
   },
   "sheets": [
