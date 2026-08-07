@@ -83,10 +83,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|219262500|117250000|1e9a5e4b-5252-485c-893e-5e8a32fccd98|b0bd4a5f-d172-4a46-a307-a2b432408e58",
-          "Caused by net tie"
-        ],
-        [
           "duplicate_footprints|139100000|45663326|754f8b58-debd-4604-a128-1519bc9e77ea|58c68361-22f6-4f99-ade7-8ca26a419d2b",
           "watermark"
         ],
@@ -97,10 +93,6 @@
         [
           "extra_footprint|233300000|85800000|58c68361-22f6-4f99-ade7-8ca26a419d2b|00000000-0000-0000-0000-000000000000",
           "watermark"
-        ],
-        [
-          "invalid_outline|46750000|96250000|cb489388-e2ef-490a-b3fb-4adf19c64c9f|d78b63fc-26d9-461c-adbf-fa6741f48d9b",
-          "board edge is manufacturable"
         ]
       ],
       "meta": {
@@ -997,7 +989,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "L1-2,#PWR1-130,J1-19,R1-91,#FLG10-12,SW1-5,NT1-2,NT5,JP1-15,C1-66,TP1-31,D1-19,U1-32,Q1-10,RV1,F1-2,F5,FB1,BZ1,H1-13,HS1-2,K1,PS1,Y1",
+    "used_designators": "LS1,Q8-10,F5,RV2,L2,J2,J14,J18-19,SW4-5,NT5,#FLG10-12,#PWR1-3,#PWR5,#PWR9,#PWR33,#PWR35-37,#PWR54,#PWR63,#PWR86,#PWR88,#PWR90-127,C6-7,C13-14,C17,C20-24,C26,C28-30,C33,C35-36,C39-56,U5,U16-28,D4,D16-18,JP10-13,R5,R8,R60-85,TP17-31",
     "variants": []
   },
   "sheets": [

@@ -4227,7 +4227,7 @@
 	)
 	(text "VBUS Supply Switch"
 		(exclude_from_sim no)
-		(at 375.285 156.845 0)
+		(at 373.126 156.718 0)
 		(effects
 			(font
 				(size 2.032 2.032)
