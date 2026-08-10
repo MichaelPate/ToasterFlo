@@ -10090,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7030-472"
 			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10123,7 +10123,7 @@
 				)
 			)
 		)
-		(property "part number" "MAMK2520T2R2M"
+		(property "part number" "7440700047"
 			(at 123.19 109.22 90)
 			(hide yes)
 			(show_name no)
