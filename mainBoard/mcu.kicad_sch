@@ -4948,7 +4948,7 @@
 		)
 		(uuid "30e06b3d-0084-4c90-a09c-3d9ef551b8ac")
 	)
-	(text "8MB NOR Flash"
+	(text "16MB NOR Flash"
 		(exclude_from_sim no)
 		(at 85.852 146.812 0)
 		(effects
@@ -12606,7 +12606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q64JVSSIM TR"
+		(property "Value" "W25Q128JVSIQ TR"
 			(at 71.12 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
