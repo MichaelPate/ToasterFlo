@@ -11931,7 +11931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "23LC1024-I/ST"
+		(property "Value" "23LC1024-E/SN"
 			(at 64.135 180.975 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11941,7 +11941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 55.88 195.58 0)
 			(hide yes)
 			(show_name no)
