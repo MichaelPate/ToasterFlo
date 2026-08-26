@@ -4733,12 +4733,6 @@
 		(uuid "9264e856-3182-40c5-aaab-fd19d166667b")
 	)
 	(junction
-		(at 361.95 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "962841d0-03fa-4786-8b9c-d21dfc5012ac")
-	)
-	(junction
 		(at 186.69 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6277,16 +6271,6 @@
 			(type default)
 		)
 		(uuid "a0de58f1-228c-46b0-8318-90a3934741dc")
-	)
-	(wire
-		(pts
-			(xy 361.95 212.09) (xy 365.76 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fa1ba3-4fd8-4840-9c6c-6221aebf477f")
 	)
 	(wire
 		(pts
@@ -11293,85 +11277,6 @@
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f08096be-4241-44f0-80c6-822a4bb8e386"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 365.76 212.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ea66012-a8c2-448e-b690-d028b1a40d83")
-		(property "Reference" "TP4"
-			(at 370.332 212.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 370.84 213.3599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 365.76 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 365.76 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f38e848-6e23-445b-aa67-b84a8f06d57b")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f08096be-4241-44f0-80c6-822a4bb8e386"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
