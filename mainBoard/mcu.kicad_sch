@@ -5764,6 +5764,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 179.07) (xy 196.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b2ac9d-f727-4693-a9bc-ab60c390bb48")
+	)
+	(wire
+		(pts
 			(xy 157.48 111.76) (xy 153.67 111.76)
 		)
 		(stroke
@@ -6271,16 +6281,6 @@
 			(type default)
 		)
 		(uuid "c20ab36d-9c2e-4bb1-a0f1-ab7875ece3f2")
-	)
-	(wire
-		(pts
-			(xy 196.85 179.07) (xy 196.85 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bc8c52-06e8-4d00-b065-70d4bff0775f")
 	)
 	(wire
 		(pts
@@ -11262,88 +11262,6 @@
 			(project "mainBoard"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 196.85 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a594ad9-79e5-4ec5-90c5-9306599afb30")
-		(property "Reference" "NT2"
-			(at 191.77 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 194.31 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 196.85 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 196.85 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c34a1b19-d958-45a8-a4e5-c223db2a3635")
-		)
-		(pin "2"
-			(uuid "7189ed61-38b9-4334-bbbe-bc3b549575ce")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
