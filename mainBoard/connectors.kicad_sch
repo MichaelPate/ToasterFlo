@@ -8505,6 +8505,10 @@
 		(uuid "f835f970-0296-4dda-aff1-7499b7814c8f")
 	)
 	(no_connect
+		(at 166.37 64.77)
+		(uuid "07b81591-a455-4af7-b401-3d2cfca47dec")
+	)
+	(no_connect
 		(at 156.21 172.72)
 		(uuid "29604429-6497-4701-88f5-63edf77a770f")
 	)
@@ -8523,6 +8527,10 @@
 	(no_connect
 		(at 201.93 177.8)
 		(uuid "f4cc8f3f-6a00-4acb-9367-56dc3b3054ad")
+	)
+	(no_connect
+		(at 176.53 64.77)
+		(uuid "fd1a2851-b6e7-44be-b7e5-a9b036564680")
 	)
 	(wire
 		(pts
@@ -8713,16 +8721,6 @@
 			(type default)
 		)
 		(uuid "11bde2b2-01e6-479a-b142-56e614621189")
-	)
-	(wire
-		(pts
-			(xy 147.32 64.77) (xy 166.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120ab48e-e737-46a7-bb1e-8c1f72e44d32")
 	)
 	(wire
 		(pts
@@ -10866,16 +10864,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 67.31) (xy 180.34 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd52220-d186-44b0-8d37-ac03ff58dbc6")
-	)
-	(wire
-		(pts
 			(xy 114.3 245.11) (xy 114.3 255.27)
 		)
 		(stroke
@@ -11024,16 +11012,6 @@
 		)
 		(uuid "fccfe80f-f23c-41b1-aa1f-6cfeb5c5d168")
 	)
-	(wire
-		(pts
-			(xy 176.53 67.31) (xy 176.53 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd198b41-443f-4718-857b-ffd9358fca9f")
-	)
 	(label "STLink_+3v3"
 		(at 147.32 177.8 0)
 		(effects
@@ -11093,16 +11071,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c78c0a6-1ecc-4258-abac-298f516081ac")
-	)
-	(label "nRST_ESD"
-		(at 155.2163 64.77 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f3541d8-6c28-4b07-8b1e-9caab967c0c2")
 	)
 	(label "FAN2_MINUS"
 		(at 77.47 119.38 0)
@@ -11458,7 +11426,7 @@
 	)
 	(global_label "NRST_SW"
 		(shape output)
-		(at 180.34 67.31 0)
+		(at 147.32 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11468,7 +11436,7 @@
 		)
 		(uuid "515aff8b-f363-4cdf-a6ab-f76515a82787")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7313 67.31 0)
+			(at 158.7113 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
