@@ -6456,17 +6456,17 @@
 	)
 	(global_label "TC3_ADC"
 		(shape input)
-		(at 302.26 162.56 0)
+		(at 266.7 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0415c932-a174-46b1-ac29-ea6098e00ded")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.8581 162.56 0)
+			(at 255.6715 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +6474,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
