@@ -6840,17 +6840,17 @@
 	)
 	(global_label "TC2_CJ_TEMP"
 		(shape input)
-		(at 448.31 153.67 180)
+		(at 302.26 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3da947bd-86ce-407f-89dd-8815a5be15e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 434.806 153.67 0)
+			(at 317.7031 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6858,7 +6858,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7368,17 +7368,17 @@
 	)
 	(global_label "TC1_CJ_TEMP"
 		(shape input)
-		(at 448.31 151.13 180)
+		(at 302.26 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8c801466-862e-4bc2-8338-d9752d53a160")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 432.8669 151.13 0)
+			(at 317.7031 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,7 +7386,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7752,17 +7752,17 @@
 	)
 	(global_label "QSPI_ROM_CS"
 		(shape output)
-		(at 452.12 162.56 180)
+		(at 341.63 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d3f58c5a-b3af-4f8e-8d11-df52be610dc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.2534 162.56 0)
+			(at 357.4966 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7770,7 +7770,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7824,17 +7824,17 @@
 	)
 	(global_label "TC3_CJ_TEMP"
 		(shape input)
-		(at 448.31 156.21 180)
+		(at 302.26 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "de7f7c39-b93d-42e7-86e1-83b576d33973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 434.806 156.21 0)
+			(at 317.7031 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +7842,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
